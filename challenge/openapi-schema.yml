@@ -1,0 +1,20 @@
+openapi: 3.0.2
+info:
+  title: ''
+  version: ''
+paths:
+  /packages/all/:
+    get:
+      operationId: listPackages
+      description: ''
+      parameters: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                type: array
+                items: {}
+          description: ''
+      tags:
+      - packages

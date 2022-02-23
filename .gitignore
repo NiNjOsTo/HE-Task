@@ -1,0 +1,16 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# dotenv
+.env
+
+# virtualenv
+env/
+.vscode
+
+
+
+
+
+db.sqlite3
+**/migrations
