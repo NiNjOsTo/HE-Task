@@ -6,7 +6,7 @@ Through this Challenge we'll mostly be looking to see your understanding of djan
 
 The backend is already made in **Django** and you'll be doing some minor modifications , but for the front end you'll need to create it from scratch in whatever technology you like (preferably React.js or Next.js).
 
-***You have a week (7days) to be done with the whole challenge***
+***You have (5days) to be done with the whole challenge***
 
 ## For the Backend part 
 you will need to clone this repo to be able to work on the tasks.
