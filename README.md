@@ -17,6 +17,7 @@ The tasks for the Backend are:
 - Add "mark as sold out" field to all tables (slot,date,variant,package) so admins/agents can set packages as sold out manually.
 - Optimize get all pacakges endpoint.
 - Create new endpoint to get only active packages with future dates.
+- Create new endpoint to update a variant's title and description.
 
 #### **Bonus points for writing unit tests.**
 
