@@ -12,12 +12,24 @@ The backend is already made in **Django** and you'll be doing some minor modific
 you will need to clone this repo to be able to work on the tasks.
 
 The tasks for the Backend are:
-- Make an endpoint to fetch variants for a specific pacakge .
-- Calculate if the variant has any future dates  and return it with the varaints response .
-- Add "mark as sold out" field to all tables (slot,date,variant,package) so admins/agents can set packages as sold out manually.
-- Optimize get all pacakges endpoint.
-- Create new endpoint to get only active packages with future dates.
-- Create new endpoint to update a variant's title and description.
+- Make an endpoint to fetch variants for a specific pacakge . **checked**
+  http://127.0.0.1:8000/openapi/variant/packageid/:id
+
+- Calculate if the variant has any future dates  and return it with the varaints response . **checked**
+  http://127.0.0.1:8000/openapi/Variants/
+
+- Add "mark as sold out" field to all tables (slot,date,variant,package) so admins/agents can set packages as sold out manually. **checked**
+
+- Optimize get all pacakges endpoint. **checked**
+  http://127.0.0.1:8000/openapi/Packages/
+
+
+- Create new endpoint to get only active packages with future dates. **half-checked**
+  http://127.0.0.1:8000/openapi/Packages/isactive/
+  **only active couldn't manage to arrange it with future dates**
+  
+- Create new endpoint to update a variant's title and description. 
+  http://127.0.0.1:8000/openapi/VariantsUpdate/1
 
 #### **Bonus points for writing unit tests.**
 
@@ -25,18 +37,18 @@ The tasks for the Backend are:
 
 ## For the Frontend part 
 
-- Make a list page to show all pakcages , the details shown should include :
+- Make a list page to show all pakcages , the details shown should include : **checked**
 
-    - Title
-  - Agency Name
-  - Country Name
-  - Active status 
-  - sold out status 
+  - Title **checked**
+  - Agency Name **checked**
+  - Country Name **checked**
+  - Active status **checked**
+  - sold out status **checked**
 
-- You can choose a packages and get redirected to a detail page that contains a list of variants related to the package
+- You can choose a package and get redirected to a detail page that contains a list of variants related to the package **checked**
   the list should contain the following details
-    - Title
-    - has future dates
-    - sold out status
+    - Title **checked**
+    - has future dates **checked**
+    - sold out status **checked**
   
   
